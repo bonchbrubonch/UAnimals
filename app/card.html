@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat+Alternates:wght@600;700&family=Single+Day&family=Ubuntu:wght@400;500&display=swap"
+    rel="stylesheet">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+  <link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+
+  <section class="product">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="product__left">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images/dest/content/slider/slider-1.jpg" alt="product">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/dest/content/slider/slider-2.jpg" alt="product">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/dest/content/slider/slider-3.jpg" alt="product">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/dest/content/slider/slider-4.jpg" alt="product">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="product__right">
+            <div class="breadcrumbs">
+              <div class="breadcrumbs__inner">
+                <ul class="breadcrumbs__list">
+                  <li><a href="#">Головна</a></li>
+                  <li><span>Одяг</span></li>
+                </ul>
+              </div>
+            </div>
+            <h6 class="product__name">
+              Реглан
+              <div class="product__model">“Їжак Вухатий”</div>
+            </h6>
+            <div class="product__sum">
+              1999 <span>₴</span>
+            </div>
+            <div class="product__color">
+              Колір: <strong>Зелений</strong>
+            </div>
+            <div class="product__color-box">
+              <a href="#" class="product__one">
+                <span></span>
+              </a>
+              <a href="#" class="product__two active">
+                <span></span>
+              </a>
+              <a href="#" class="product__three">
+                <span></span>
+              </a>
+              <a href="#" class="product__four">
+                <span></span>
+              </a>
+            </div>
+            <div class="product__size-wrap">
+              <div class="product__size">
+                <a href="#" class="product__size-one active">S</a>
+                <a href="#" class="product__size-two">M</a>
+                <a href="#" class="product__size-three">L</a>
+              </div>
+              <div class="calc">
+                <button class="calc__minus">
+                  <img src="images/dest/icons/minus.svg" alt="icon">
+                </button>
+                <input type="text" value="2" readonly>
+                <button class="calc__plus">
+                  <img src="images/dest/icons/plus.svg" alt="icon">
+                </button>
+                <a href="#" class="btn btn--orange">
+                  Переглянути
+                </a>
+              </div>
+            </div>
+
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Опис
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      ​​Кудлатий і мʼякий реглан із зображенням вухатого їжака, щоб відчути себе милим звіром у міському
+                      середовищі. 
+                    </p>
+                    <p>
+                      Светрик теплий та зовсім не колеться.
+                    </p>
+                    <strong>
+                      Увесь прибуток від товару буде спрямований на діяльність гуманістичного руху UAnimals, що рятує
+                      тварин від війни.
+                    </strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    ПРО ТВАРИНУ
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      ​​Кудлатий і мʼякий реглан із зображенням вухатого їжака, щоб відчути себе милим звіром у міському
+                      середовищі. 
+                    </p>
+                    <p>
+                      Светрик теплий та зовсім не колеться.
+                    </p>
+                    <p>
+                      Увесь прибуток від товару буде спрямований на діяльність гуманістичного руху UAnimals, що рятує
+                      тварин від війни.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    РОЗМІРНА СІТКА
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      ​​Кудлатий і мʼякий реглан із зображенням вухатого їжака, щоб відчути себе милим звіром у міському
+                      середовищі. 
+                    </p>
+                    <p>
+                      Светрик теплий та зовсім не колеться.
+                    </p>
+                    <p>
+                      Увесь прибуток від товару буде спрямований на діяльність гуманістичного руху UAnimals, що рятує
+                      тварин від війни.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Склад
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      ​​Кудлатий і мʼякий реглан із зображенням вухатого їжака, щоб відчути себе милим звіром у міському
+                      середовищі. 
+                    </p>
+                    <p>
+                      Светрик теплий та зовсім не колеться.
+                    </p>
+                    <p>
+                      Увесь прибуток від товару буде спрямований на діяльність гуманістичного руху UAnimals, що рятує
+                      тварин від війни.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Доставка та Повернення
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      ​​Кудлатий і мʼякий реглан із зображенням вухатого їжака, щоб відчути себе милим звіром у міському
+                      середовищі. 
+                    </p>
+                    <p>
+                      Светрик теплий та зовсім не колеться.
+                    </p>
+                    <p>
+                      Увесь прибуток від товару буде спрямований на діяльність гуманістичного руху UAnimals, що рятує
+                      тварин від війни.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="similar">
+    <div class="container">
+      <h4 class="subtitle">
+        Схожі товари
+      </h4>
+      <ul class="item-list">
+        <li class="item">
+          <div class="item__inner">
+            <div class="item__img">
+              <img src="images/dest/content/product-1.png" alt="product">
+            </div>
+            <a href="#" class="btn btn--orange">
+              Переглянути
+            </a>
+            <div class="item__name">
+              Светр “Рись”
+            </div>
+            <div class="item__price">
+              649 <span>₴</span>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="item__inner">
+            <div class="item__img">
+              <img src="images/dest/content/product-5.png" alt="product">
+            </div>
+            <div class="item__info">
+              ТОВАР ЗАКІНЧИВСЯ
+            </div>
+            <a href="#" class="btn btn--orange">
+              Переглянути
+            </a>
+            <div class="item__name">
+              Плед “Рись”
+            </div>
+            <div class="item__price">
+              520 <span>₴</span>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="item__inner">
+            <div class="item__img">
+              <img src="images/dest/content/product-3.png" alt="product">
+            </div>
+            <a href="#" class="btn btn--orange">
+              Переглянути
+            </a>
+            <div class="item__name">
+              Світшот “Чорний Лелека”
+            </div>
+            <div class="item__price">
+              649 <span>₴</span>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="item__inner">
+            <div class="item__img">
+              <img src="images/dest/content/product-7.png" alt="product">
+            </div>
+            <a href="#" class="btn btn--orange">
+              Переглянути
+            </a>
+            <div class="item__name">
+              Футболка “Хохуля”
+            </div>
+            <div class="item__price">
+              520 <span>₴</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 125%;
+  text-transform: uppercase;
+  padding: 15px 18px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #E3592A;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition:  linear .2s;
+}
+
+.btn--orange {
+  color: #FFF;
+  background-color: #E3592A;
+}
+
+.btn--transparent {
+  border: 1px solid #2C2C2C;
+  background-color: #EFEEF1;
+}
