@@ -423,12 +423,18 @@
     padding: 0;
   }
 
-  .collection-about h5 {
+  .collection-about h5,
+  .contactts__left h4 {
     margin: 0 0 50px 0;
     font-size: 30px;
     font-weight: 600;
   }
-
+  .contactts__left h4{
+    margin: 0 0 20px 0;
+  }
+  .contactts__left h4 + p {
+    font-size: 16px;
+  }
   .collection-about h6 {
     margin: 0 0 20px 0;
     font-size: 25px;
@@ -690,10 +696,9 @@
     .footer__col-box li {
       margin: 0 30px 0 0;
     }
-
-
-
-
-
   }
+  .contactts__box-left {
+    font-size: 14px;
+  }
+
 }

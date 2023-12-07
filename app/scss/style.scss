@@ -1474,4 +1474,146 @@
 }
 
 
+/*start modal==========*/
+.modal {
+  max-width: 600px;
+  width: 100%;
+  height: fit-content;
+  display: none;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h6 {
+    margin: 0 0 40px 0;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 110%;
+  }
+
+  &__btn {
+    margin: 0 0 30px 0;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #2C2C2C;
+    text-transform: uppercase;
+    width: fit-content;
+  }
+}
+
+/*end modal==========*/
+
+/*start contactts===========*/
+.contactts {
+  padding: 0 0 85px 0;
+
+  &__left {
+
+    h4 {
+      margin: 0 0 25px 0;
+      color: #2C2C2C;
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 110%;
+    }
+
+    h4+p {
+      color: #2C2C2C;
+      leading-trim: both;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 125%;
+    }
+  }
+
+  &__box {
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-between;
+  }
+  &__box:last-child {
+    padding: 30px 0 0 0;
+    border-top: 1px solid #2C2C2C;
+  }
+  &__box-left {
+    margin: 0 25px 0 0;
+    color: #2C2C2C;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 125%;
+  }
+
+  &__box-info {
+    max-width: 340px;
+    width: 100%;
+
+    p {
+      margin: 0 0 25px 0;
+      color: #2C2C2C;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 125%;
+    }
+
+    ul {
+      li {
+        margin: 0 0 25px 0;
+      }
+
+      a {
+        color: #2C2C2C;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 125%;
+        letter-spacing: 0.75px;
+        &::after{
+          width: 0;
+        }
+        &:hover{
+          &::after{
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    ul.soc {
+      display: flex;
+
+      li {
+        margin: 0 15px 0 0;
+      }
+    }
+  }
+
+  &__right {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+}
+
+/*end contactts===========*/
+
+
+
+
+
+
+
+
 @import "media";
